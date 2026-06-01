@@ -8,7 +8,7 @@ st.title('Sellers Performance Dashboard')
 
 # DATA LOADING
 # Reading the data file 
-df = pd.read_excel('/Users/majochaviraguzman/Desktop/DAIA/streamlit/sellers.xlsx')
+df = pd.read_excel('/Users/majochaviraguzman/Desktop/DAIA/stlit/sellers.xlsx')
 
 # Creating a new column 'FULL NAME' by combining the first name and last name.
 # This makes it easier to display full names in dropdown lists later.
